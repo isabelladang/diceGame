@@ -25,7 +25,7 @@ var score2 = player2Score();
 //Change the H1 Title to Display a Winner
 function draw() {
   if (score1 === score2) {
-    var announcement0 = document.querySelector("h1").innerHTML = "It's a tie! Draw again!";
+    var announcement0 = document.querySelector("h1").innerHTML = "It's a tie! Roll again!";
   } else if (score1 > score2) {
     var announcement1 = document.querySelector("h1").innerHTML = "Player 1 wins! 🚩";
   } else {
