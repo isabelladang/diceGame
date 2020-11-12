@@ -1,4 +1,6 @@
-//DICE OF PLAYER 1
+//Press button to roll the dices
+function rollButton (){
+  //DICE OF PLAYER 1
 function player1Score() {
   //Create a Random Number 1
   var randomNumber1 = Math.floor(Math.random() * 6) + 1;
@@ -33,3 +35,4 @@ function draw() {
   }
 }
 console.log(draw());
+}
